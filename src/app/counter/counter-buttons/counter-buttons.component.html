@@ -2,5 +2,6 @@
     <button class="btn btn-primary" (click)="onIncrement()">Increment</button>&nbsp;
 <button class="btn btn-warning" (click)="onDecrement()">Decrement</button>&nbsp;
 <button class="btn btn-info" (click)="onReset()">Reset</button>
-
+<h3>Counter is : {{ channelName$ | async}}</h3>
+<button class="btn btn-info" (click)="onChangeChannelName()">change channel</button>
 </div>
